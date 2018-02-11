@@ -1,2 +1,2 @@
 var g = G$('Paul', 'Borawski')
-g.greet();
+g.greet().greet().greet();
