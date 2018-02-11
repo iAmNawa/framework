@@ -12,8 +12,8 @@
   };
 
   var formalGreetings = {
-    en: 'Greetings',
-    es: 'Saludos'
+    en: 'Greetings ',
+    es: 'Saludos '
   };
 
    var logMessages = {
