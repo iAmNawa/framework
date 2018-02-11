@@ -1,3 +1,2 @@
-var g = G$('John', 'Doe')
-
-console.log(g)
+var g = G$('Paul', 'Borawski')
+g.greet();

@@ -7,8 +7,8 @@
   var supportedLangs = ['en', 'es']
 
   var greetings = {
-    en: 'Hello',
-    es: 'Hola'
+    en: 'Hello ',
+    es: 'Hola '
   };
 
   var formalGreetings = {
@@ -52,6 +52,21 @@
      if (console) {
        console.log(msg);
      }
+     return this;
+   },
+
+   log: function() {
+     if (console) {
+       console.log(logMessages[this.language] + ':' + this.fullName());
+     }
+     return this;
+   },
+
+   setLang: function(lang) {
+     this.language = lang;
+
+     this.validate();
+
      return this;
    }
 
